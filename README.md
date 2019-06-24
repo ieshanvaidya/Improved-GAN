@@ -17,8 +17,8 @@ optional arguments:
   --savedir SAVEDIR           path for saving models and logs, default=log
   --workers WORKERS           number of data loading workers, default=2
   --nexamples NEXAMPLES       number of examples per class to use as supervised data, default=10
-  --batchSize BATCHSIZE       input batch size, default=64
-  --imageSize IMAGESIZE       the height / width of the input image to network, default=28
+  --batch_size BATCHSIZE       input batch size, default=64
+  --image_size IMAGESIZE       the height / width of the input image to network, default=28
   --nz NZ                     size of the latent z vector, default=100
   --epochs EPOCHS             number of epochs to train for, default=10
   --lr LR                     learning rate, default=0.003
